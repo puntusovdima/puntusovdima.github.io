@@ -1,0 +1,176 @@
+body{background-image: url(../intro1.png);}
+body header{background-image: url(../intro2.png);
+background-size: contain;
+font-size: 16px; line-height: 1.5; font-family: Arial, Helvetica, sans-serif;
+}
+aside{
+    background-image: url(../aside1.png);
+    background-clip: border-box;
+    padding: 10px;
+    float: right;
+}
+article {
+    margin-right: 240px;
+    display: block;
+   }
+h1,h2,h3,h4,h5{
+    line-height: 1.5;
+}
+h1{
+    text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+    font-variant: small-caps;
+}
+nav{
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+nav a{
+    color: green; /* Цвет ссылок */
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid green; /* Параметры рамки */
+    background: hsla(180, 74%, 90%, 0.6); /* Цвет фона */
+    padding: 11px 25px; /* Отступы от краев */
+    margin: 0 0.7rem; /* Расстояние м-ду элементами */
+}
+select,.email{
+    width: 350px;
+    height: 20px;
+    background: hsla(180, 74%, 90%, 0.6);
+    border: 2px solid hsl(200, 70%, 30%);
+    outline: none;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: rgb(0, 145, 120);
+}
+nav a:visited{
+    color: green;
+}
+nav a:hover {
+    background: #369d9475; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+}
+label{
+    font-weight: 700;
+}
+form.coment,form.singin{
+    margin: 2rem 0 2rem 3rem;
+}
+p.dol,p.lorem,div.downto{
+    margin: 1.5rem 3rem 1.5rem 2rem;
+}
+button{
+    font-size: 1rem;
+    background-color: hsla(180, 74%, 90%, 0.6);
+    border: solid green;
+    padding: 4px;
+    position: relative; left: 1rem;
+}
+.lorem{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    display: inline;
+    background-color: #369d9450;
+    padding: 4px;
+}
+#boob{
+    margin-right: 4px;
+    float: left;
+}
+.dol{
+    background-image:linear-gradient(148deg, rgba(26, 184, 184, 0.43),rgba(252, 86, 86, 0.38) 65%,rgba(255, 180, 42, 0.35));
+    padding: 4px;
+    width: 70%;
+    margin: 0.5rem;
+    display: inline-block;
+}
+blockquote{
+    width: 75%;
+    background: hsla(50, 86%, 46%, 0.5);
+    background-size: 24em;
+    border: 1px solid hsl(50, 86%, 46%);
+}
+.coment{
+    font:italic normal bold 20px/1.2 Arial, sans-serif;
+    color: green;
+    text-decoration: underline;
+}
+#cotle{
+    margin-left: -1rem;
+}
+.area1{
+    width: 50%;
+    min-width: 300px;
+    height: 260px;
+    background-image: radial-gradient(closest-corner at 50px 50px,rgba(255, 180, 42, 0.842),rgba(252, 86, 86, 0.507) 50%,rgba(26, 184, 184, 0.753));
+    border: 1.5px solid hsl(180, 70%, 30%);
+    font: 1rem Arial, sans-serif;
+    margin-top: 12px;
+    opacity: 50%;
+}
+.area1:focus{
+    background-image: radial-gradient(closest-corner at 150px 120px,rgba(255, 180, 42, 0.442),rgba(252, 86, 86, 0.407) 50%,rgba(26, 184, 184, 0.453));
+    border: 2px solid hsl(200, 70%, 30%);
+    outline: none;
+}
+.downto{
+    background-image: linear-gradient(190deg, rgba(26, 184, 184, 0.43),rgba(252, 86, 86, 0.38) 65%,rgba(255, 180, 42, 0.35));
+    padding: 4px;
+    min-height: 12.1rem;
+    width: 70%;
+}
+ul.notype{
+    list-style-type: none;
+    width: max-content;
+    float: left;
+    padding: 0px;
+    margin-top: 0em;
+    margin-right: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+li:nth-child(2n){
+    background-color: lightcoral; /* Работает с каждым */
+}
+li:nth-child(odd){
+    background-color: rgb(252, 252, 200);
+}
+li:first-child{
+    background-color: lightgreen;
+}
+li:last-child{
+    background-color: lightblue;
+}
+.downto p{
+    margin-top: 0em;
+    padding: 4px;
+}
+table.tabliza{
+    overflow: auto;
+    background-color: rgba(100, 148, 237, 0.336);
+    border: 1px solid rgba(100, 148, 237, 1);
+    float: right;
+    padding: 0px;
+    display: none;
+}
+.thed th{
+    background: lightcyan;
+    border: 1px solid rgb(0, 0, 0);
+}
+.tfot th{
+    background: lightcyan;
+    border: 1px solid black; 
+}
+.tbod td{
+    background: lightcyan;
+    border: 1px solid black;
+}
+dl{
+    display: none;
+}
